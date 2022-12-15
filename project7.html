@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<!--<title>Generic - Hyperspace by HTML5 UP</title>-->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title"></a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<!--<li><a href="generic.html" class="active">Generic</a></li>
+						<li><a href="elements.html">Elements</a></li>-->
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">File and Image compression and de-compression</h1>
+							<span class="image fit"><img src="images/project7.png" alt="" /></span>
+                          <p>Text and image compression is required as uncompressed data can take up a lot of space. Text and image files can be compressed to make them smaller and faster to send, and unzipping files on devices has a low overhead.
+                            <br>Used Python to first calculate the frequency of each character in a text file. Using Priority Queue, the characters were arranged in a binary tree. Using Greedy algorithms, codes were assigned to each character and thus files were compressed. For de-compression, start from the root node of the Huffman Tree, go left at 0 and right at 1. This way, characters can be obtained back from the encoded codewords.
+                            <br>For, frequency of R,G,B channels in each pixel was calculated. The frequency of each colour was obtained from this and from this step the same process for file was followed.
+                          </p>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; All rights reserved.</li><!--<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>-->
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
